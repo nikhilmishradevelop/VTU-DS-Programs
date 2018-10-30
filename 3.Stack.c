@@ -29,15 +29,15 @@ void palindromeNo(){
         b=b/10;
     }
     if(s==n)
-        printf("\nPalindrome no\n");
+        printf("\nPalindrome\n");
     else
-        printf("\nNot palindrome no\n");
+        printf("\nNot a Palindrome\n");
 }
 void palindrome(){
     int i;
     for(i=0;i<=top/2;i++){
         if(stk[i]!=stk[top-i]){
-            printf("\nNot a palindrom stack\n");
+            printf("\nNot a Palindrome stack\n");
             return;
         }
     }
